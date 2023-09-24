@@ -1,0 +1,9 @@
+create database DOAN 
+
+USE DOAN
+
+CREATE TABLE ACCOUNT(
+	Email nvarchar(200) NOT NULL PRIMARY KEY,
+	[Password] nvarchar(200) NOT NULL,
+	Role int NULL,
+)
